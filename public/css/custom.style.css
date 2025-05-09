@@ -1,0 +1,39 @@
+#kt_content {
+    /*background: #eef3f5;*/
+}
+
+.login-logo {
+    filter: brightness(0) invert(1);
+    height: 100px;
+}
+
+.login-form {
+    padding: 20px !important;
+    border-radius: 20px !important;
+    background: #fafafa !important;
+}
+
+.dtfc-fixed-right {
+    /*background: #eff2f5 !important;*/
+    text-align: center !important;
+    /*-webkit-box-shadow: -13px 12px 39px -30px rgb(0 0 0 / 78%) !important;*/
+    /*-moz-box-shadow: -13px 12px 39px -30px rgb(0 0 0 / 78%) !important;*/
+    /*box-shadow: -13px 12px 39px -30px rgb(0 0 0 / 78%) !important;*/
+}
+
+.selected .text-primary, .selected .text-muted {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.selected .form-check-custom.form-check-solid .form-check-input:checked {
+    border: 1px solid #fff;
+}
+
+.selected .btn-outline-dashed {
+    border: 1px dashed #fff !important;
+}
+
+.form-check-custom {
+    width: 170px;
+}
