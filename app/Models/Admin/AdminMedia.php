@@ -12,16 +12,10 @@ class AdminMedia extends Model
 
     protected $table = 'admin_media';
 
-    /**
-     * @var string[]
-     */
     protected $fillable = [
         'file', 'size', 'readable_file', 'collection_name', 'admin_id'
     ];
 
-    /**
-     * @return BelongsTo
-     */
     public function admin(): BelongsTo
     {
         return $this->belongsTo(Admin::class);
