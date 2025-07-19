@@ -22,11 +22,6 @@ use Illuminate\Foundation\Auth\Access\Authorizable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
 
-/**
- * Class Admin
- * @mixin Builder
- * @package App\Models\Admin
- */
 class Admin extends BaseModel implements
     AuthenticatableContract,
     AuthorizableContract,
